@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CSA.Entity
 {
-    public class Class1
+    class CComentario
     {
     }
 }

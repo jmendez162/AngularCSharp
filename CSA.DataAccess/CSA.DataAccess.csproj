@@ -58,11 +58,22 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class1.cs" />
+    <Compile Include="General\DataNacionalidad.cs" />
+    <Compile Include="General\DataComentario.cs" />
+    <Compile Include="General\DataProvincia.cs" />
+    <Compile Include="General\DataSexo.cs" />
+    <Compile Include="General\DataUsuario.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CSA.DataAccess.Interface\CSA.DataAccess.Interface.csproj">
+      <Project>{E86520DB-708C-4CFF-AC89-ADAB1AD90AA7}</Project>
+      <Name>CSA.DataAccess.Interface</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

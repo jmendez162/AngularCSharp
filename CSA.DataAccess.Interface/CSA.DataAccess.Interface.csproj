@@ -58,7 +58,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class1.cs" />
+    <Compile Include="General\IDataComentario.cs" />
+    <Compile Include="General\IDataNacionalidad.cs" />
     <Compile Include="General\IDataProvincia.cs" />
+    <Compile Include="General\IDataSexo.cs" />
+    <Compile Include="General\IDataUsuario.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

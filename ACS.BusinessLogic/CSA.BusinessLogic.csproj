@@ -57,12 +57,20 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="General\ServiceComentario.cs" />
+    <Compile Include="General\ServiceUsuario.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\CSA.BusinessLogic.Interface\CSA.BusinessLogic.Interface.csproj">
+      <Project>{B3631165-8C61-46A5-94F5-9BEE34D5B74A}</Project>
+      <Name>CSA.BusinessLogic.Interface</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -12,7 +12,7 @@ namespace CSA.GeneralConfiguration.DependencyInjection
         public static IUnityContainer unityContainer { get; set; }
         public static void Run(IUnityContainer container)
         {
-            
+            InjectionGeneral.Run(container);
         }
     }
 }

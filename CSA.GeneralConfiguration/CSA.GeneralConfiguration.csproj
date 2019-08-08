@@ -67,5 +67,23 @@
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ACS.BusinessLogic\CSA.BusinessLogic.csproj">
+      <Project>{2E3B13DB-09D9-4EE1-A7E0-1BD55604A48E}</Project>
+      <Name>CSA.BusinessLogic</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CSA.BusinessLogic.Interface\CSA.BusinessLogic.Interface.csproj">
+      <Project>{B3631165-8C61-46A5-94F5-9BEE34D5B74A}</Project>
+      <Name>CSA.BusinessLogic.Interface</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CSA.DataAccess.Interface\CSA.DataAccess.Interface.csproj">
+      <Project>{E86520DB-708C-4CFF-AC89-ADAB1AD90AA7}</Project>
+      <Name>CSA.DataAccess.Interface</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CSA.DataAccess\CSA.DataAccess.csproj">
+      <Project>{025C92DD-79A0-4AEE-B93B-D59189D63E06}</Project>
+      <Name>CSA.DataAccess</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

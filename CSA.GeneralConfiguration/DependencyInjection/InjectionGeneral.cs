@@ -7,12 +7,12 @@ using Unity;
 
 namespace CSA.GeneralConfiguration.DependencyInjection
 {
-    public static class DependencyInjection
+    public static class InjectionGeneral
     {
         public static IUnityContainer unityContainer { get; set; }
         public static void Run(IUnityContainer container)
         {
-            
+
         }
     }
 }

@@ -11,5 +11,12 @@ namespace CSA.Entity.DataBase
     {
         public CSAEntities() : base("CSAContext") { }
 
+        public DbSet<CComentario> Comentario { get; set; }
+        public DbSet<CUsuario> Usuarios { get; set; }
+        public DbSet<CProvincia> Provincias { get; set; }
+        public DbSet<CNacionalidad> Nacionalidades { get; set; }
+        public DbSet<CSexo> Sexos { get; set; }
+        public DbSet<CRestaurante> Restaurantes { get; set; }
+        public DbSet<CComida> Comidas { get; set; }
     }
 }

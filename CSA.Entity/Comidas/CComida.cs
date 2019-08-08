@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CSA.Entity
 {
-    class CComida
+    public class CComida
     {
     }
 }

@@ -48,14 +48,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Comidas\CCena.cs" />
-    <Compile Include="Comidas\CPostre.cs" />
+    <Compile Include="ComBeb\CTipoComida.cs" />
     <Compile Include="General\CComentario.cs" />
-    <Compile Include="Comidas\CComida.cs" />
-    <Compile Include="Comidas\CDesayuno.cs" />
+    <Compile Include="ComBeb\CComBeb.cs" />
     <Compile Include="General\CNacionalidad.cs" />
     <Compile Include="General\CProvincia.cs" />
-    <Compile Include="Comidas\CRestaurante.cs" />
+    <Compile Include="ComBeb\CRestaurante.cs" />
     <Compile Include="General\CSexo.cs" />
     <Compile Include="General\CUsuario.cs" />
     <Compile Include="DataBase\CSAEntities.cs" />

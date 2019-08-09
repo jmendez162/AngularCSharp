@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ACS.BusinessLogic
+namespace CSA.BusinessLogic.Interface.General
 {
-    public class Class1
+    public interface IServiceComentario
     {
     }
 }

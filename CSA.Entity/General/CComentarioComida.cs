@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CSA.Entity.ComBeb;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
@@ -12,6 +13,6 @@ namespace CSA.Entity.General
         [Column("TICKET_COMIDA")]
         public int TICKET_RESTAURANT { get; set; }
         [ForeignKey("TICKET_COMIDA")]
-        public virtual CComida Ticket { get; set; }
+        public virtual CComBeb Ticket { get; set; }
     }
 }

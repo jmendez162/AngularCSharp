@@ -1,0 +1,1 @@
+C:\Users\jmendez\source\repos\AngularCSharp\AngularCSharp\CSA.Entity\obj\Debug\CSA.Entity.csproj.CoreCompileInputs.cache

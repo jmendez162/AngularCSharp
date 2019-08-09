@@ -1,0 +1,1 @@
+C:\Users\jmendez\source\repos\AngularCSharp\AngularCSharp\CSA.BusinessLogic.Interface\obj\Debug\CSA.BusinessLogic.Interface.csproj.CoreCompileInputs.cache

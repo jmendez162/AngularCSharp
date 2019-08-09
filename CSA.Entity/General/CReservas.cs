@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CSA.Entity.ComBeb;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;

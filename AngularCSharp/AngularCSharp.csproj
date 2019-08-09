@@ -331,7 +331,7 @@
       <Name>CSA.BusinessLogic.Interface</Name>
     </ProjectReference>
     <ProjectReference Include="..\CSA.Entity\CSA.Entity.csproj">
-      <Project>{248085FE-7D76-48AC-98D1-BCF6BA14717F}</Project>
+      <Project>{248085fe-7d76-48ac-98d1-bcf6ba14717f}</Project>
       <Name>CSA.Entity</Name>
     </ProjectReference>
   </ItemGroup>

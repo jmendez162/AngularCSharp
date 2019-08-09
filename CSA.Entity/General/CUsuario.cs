@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CSA.Entity.General;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
@@ -38,5 +39,9 @@ namespace CSA.Entity
         [Column("SEXO")]
         public int SEXO { get; set; }
         public virtual CSexo Sexo { get; set; }
+        [Column("ROL")]
+        public int ROL { get; set; }
+        [ForeignKey("ROL")]
+        public virtual CRol Rol { get; set; }
     }
 }

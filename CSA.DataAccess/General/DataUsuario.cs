@@ -16,11 +16,11 @@ namespace CSA.DataAccess.General
         {
         }
 
-        public bool AgregarUsuario(CUsuario usuario)
+        public bool AgregarUsuario(CProvincia usuario)
         {
             using(CSAEntities cSA = new CSAEntities())
             {
-                cSA.Usuarios.Add(usuario);
+                cSA.Provincias.Add(usuario);
                 cSA.SaveChanges();
             }
             return true;

@@ -18,7 +18,7 @@ namespace ACS.BusinessLogic.General
         }
 
 
-        public bool AgregarUsuario(CUsuario usuario)
+        public bool AgregarUsuario(CProvincia usuario)
         {
             return data.AgregarUsuario(usuario);
         }

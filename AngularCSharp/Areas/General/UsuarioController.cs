@@ -4,15 +4,14 @@ using CSA.Entity;
 
 namespace AngularCSharp.Areas.General
 {
-    [System.Web.Http.RoutePrefix("api/General/Usuarios")]
+    [RoutePrefix("api/General/Usuarios")]
     public class UsuarioController : ApiController
     {
         private readonly IServiceUsuario service;
-        public UsuarioController(IServiceUsuario service) : base()
-        {
-            this.service = service;
-        }
-        public bool AgregarUsuario(CUsuario usuario)
+      
+        [Route("AgregarUsuario")]
+        [HttpPost]
+        public bool AgregarUsuario(CProvincia usuario)
         {
             return service.AgregarUsuario(usuario);
         }

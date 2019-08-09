@@ -13,7 +13,7 @@ namespace CSA.Entity
     {
         [Key]
         [Column("CODIGO")]
-        public int CODIGO { get; set; }
+        public long CODIGO { get; set; }
         [Column("CONTENIDO")]
         [MaxLength(240)]
         public string CONTENIDO { get; set; }
@@ -22,9 +22,6 @@ namespace CSA.Entity
         public string USUARIO { get; set; }
         [Column("FEC_PUBLICADO")]
         public DateTime FEC_PUBLICADO { get; set; }
-        [Column("TICKET_RESTAURANT")]
-        public int TICKET_RESTAURANT{ get; set; }
-        [ForeignKey("TICKET_RESTAURANT")]
-        public virtual CRestaurante Ticket { get; set; }
+
     }
 }

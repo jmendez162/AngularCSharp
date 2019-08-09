@@ -66,6 +66,11 @@
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\CSA.Entity\CSA.Entity.csproj">
+      <Project>{248085FE-7D76-48AC-98D1-BCF6BA14717F}</Project>
+      <Name>CSA.Entity</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

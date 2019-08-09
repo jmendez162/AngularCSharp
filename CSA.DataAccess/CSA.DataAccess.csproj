@@ -57,6 +57,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Auxiliar\BaseData.cs" />
     <Compile Include="Class1.cs" />
     <Compile Include="General\DataNacionalidad.cs" />
     <Compile Include="General\DataComentario.cs" />
@@ -73,6 +74,10 @@
     <ProjectReference Include="..\CSA.DataAccess.Interface\CSA.DataAccess.Interface.csproj">
       <Project>{E86520DB-708C-4CFF-AC89-ADAB1AD90AA7}</Project>
       <Name>CSA.DataAccess.Interface</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CSA.Entity\CSA.Entity.csproj">
+      <Project>{248085FE-7D76-48AC-98D1-BCF6BA14717F}</Project>
+      <Name>CSA.Entity</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

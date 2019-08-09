@@ -325,6 +325,16 @@
     <Content Include="Scripts\jquery-3.3.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.3.1.min.map" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CSA.BusinessLogic.Interface\CSA.BusinessLogic.Interface.csproj">
+      <Project>{B3631165-8C61-46A5-94F5-9BEE34D5B74A}</Project>
+      <Name>CSA.BusinessLogic.Interface</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CSA.Entity\CSA.Entity.csproj">
+      <Project>{248085FE-7D76-48AC-98D1-BCF6BA14717F}</Project>
+      <Name>CSA.Entity</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

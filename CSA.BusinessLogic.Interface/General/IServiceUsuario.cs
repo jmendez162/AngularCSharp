@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CSA.Entity;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,5 +9,6 @@ namespace CSA.BusinessLogic.Interface.General
 {
     public interface IServiceUsuario
     {
+        bool AgregarUsuario(CUsuario usuario);
     }
 }

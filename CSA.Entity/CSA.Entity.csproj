@@ -62,9 +62,14 @@
     <Compile Include="General\CComentario.cs" />
     <Compile Include="Comidas\CComida.cs" />
     <Compile Include="Comidas\CDesayuno.cs" />
+    <Compile Include="General\CComentarioComida.cs" />
+    <Compile Include="General\CComentarioRestaurante.cs" />
+    <Compile Include="General\CFotos.cs" />
     <Compile Include="General\CNacionalidad.cs" />
     <Compile Include="General\CProvincia.cs" />
     <Compile Include="Comidas\CRestaurante.cs" />
+    <Compile Include="General\CReservas.cs" />
+    <Compile Include="General\CRol.cs" />
     <Compile Include="General\CSexo.cs" />
     <Compile Include="General\CUsuario.cs" />
     <Compile Include="DataBase\CSAEntities.cs" />

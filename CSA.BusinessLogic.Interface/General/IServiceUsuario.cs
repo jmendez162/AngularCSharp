@@ -9,6 +9,6 @@ namespace CSA.BusinessLogic.Interface.General
 {
     public interface IServiceUsuario
     {
-        bool AgregarUsuario(CProvincia usuario);
+        bool AgregarUsuario(CUsuario usuario);
     }
 }

@@ -9,6 +9,6 @@ namespace CSA.DataAccess.Interface.General
 {
     public interface IDataUsuario
     {
-        bool AgregarUsuario(CProvincia usuario);
+        bool AgregarUsuario(CUsuario usuario);
     }
 }

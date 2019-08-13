@@ -8,10 +8,14 @@ namespace AngularCSharp.Areas.General
     public class UsuarioController : ApiController
     {
         private readonly IServiceUsuario service;
+        public UsuarioController(IServiceUsuario service)
+        {
+            this.service = service;
+        }
       
         [Route("AgregarUsuario")]
         [HttpPost]
-        public bool AgregarUsuario(CProvincia usuario)
+        public bool AgregarUsuario(CUsuario usuario)
         {
             return service.AgregarUsuario(usuario);
         }

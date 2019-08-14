@@ -213,7 +213,10 @@ UpgradeLog*.htm
 # SQL Server files
 *.mdf
 *.ldf
-
+#JodioSuo
+.suo
+#JodioCache
+.cache
 # Business Intelligence projects
 *.rdl.data
 *.bim.layout

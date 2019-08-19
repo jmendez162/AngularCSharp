@@ -337,9 +337,13 @@
     <Content Include="Scripts\jquery-3.3.1.min.map" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\CSA.BusinessLogic.Interface\CSA.BusinessLogic.Interface.csproj">
-      <Project>{B3631165-8C61-46A5-94F5-9BEE34D5B74A}</Project>
-      <Name>CSA.BusinessLogic.Interface</Name>
+    <ProjectReference Include="..\ACS.BusinessLogic\CSA.BusinessLogic.csproj">
+      <Project>{2e3b13db-09d9-4ee1-a7e0-1bd55604a48e}</Project>
+      <Name>CSA.BusinessLogic</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CSA.DataAccess\CSA.DataAccess.csproj">
+      <Project>{025c92dd-79a0-4aee-b93b-d59189d63e06}</Project>
+      <Name>CSA.DataAccess</Name>
     </ProjectReference>
     <ProjectReference Include="..\CSA.Entity\CSA.Entity.csproj">
       <Project>{248085fe-7d76-48ac-98d1-bcf6ba14717f}</Project>

@@ -1,5 +1,4 @@
-﻿using CSA.DataAccess.Interface.General;
-using CSA.Entity;
+﻿using CSA.Entity;
 using CSA.Entity.DataBase;
 using System;
 using System.Collections.Generic;
@@ -10,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace CSA.DataAccess.General
 {
-    public class DataUsuario : IDataUsuario
+    public class DataUsuario 
     {
         public DataUsuario()
         {

@@ -49,7 +49,6 @@ C:\Users\jmendez\source\repos\AngularCSharp\AngularCSharp\AngularCSharp\bin\rosl
 C:\Users\jmendez\source\repos\AngularCSharp\AngularCSharp\AngularCSharp\bin\roslyn\VBCSCompiler.exe
 C:\Users\jmendez\source\repos\AngularCSharp\AngularCSharp\AngularCSharp\bin\roslyn\VBCSCompiler.exe.config
 C:\Users\jmendez\source\repos\AngularCSharp\AngularCSharp\AngularCSharp\bin\Antlr3.Runtime.dll
-C:\Users\jmendez\source\repos\AngularCSharp\AngularCSharp\AngularCSharp\bin\CSA.BusinessLogic.Interface.dll
 C:\Users\jmendez\source\repos\AngularCSharp\AngularCSharp\AngularCSharp\bin\CSA.Entity.dll
 C:\Users\jmendez\source\repos\AngularCSharp\AngularCSharp\AngularCSharp\bin\EntityFramework.dll
 C:\Users\jmendez\source\repos\AngularCSharp\AngularCSharp\AngularCSharp\bin\EntityFramework.SqlServer.dll
@@ -86,8 +85,6 @@ C:\Users\jmendez\source\repos\AngularCSharp\AngularCSharp\AngularCSharp\bin\Syst
 C:\Users\jmendez\source\repos\AngularCSharp\AngularCSharp\AngularCSharp\bin\Unity.Abstractions.dll
 C:\Users\jmendez\source\repos\AngularCSharp\AngularCSharp\AngularCSharp\bin\Unity.Container.dll
 C:\Users\jmendez\source\repos\AngularCSharp\AngularCSharp\AngularCSharp\bin\WebGrease.dll
-C:\Users\jmendez\source\repos\AngularCSharp\AngularCSharp\AngularCSharp\bin\CSA.BusinessLogic.Interface.pdb
-C:\Users\jmendez\source\repos\AngularCSharp\AngularCSharp\AngularCSharp\bin\CSA.BusinessLogic.Interface.dll.config
 C:\Users\jmendez\source\repos\AngularCSharp\AngularCSharp\AngularCSharp\bin\CSA.Entity.pdb
 C:\Users\jmendez\source\repos\AngularCSharp\AngularCSharp\AngularCSharp\bin\CSA.Entity.dll.config
 C:\Users\jmendez\source\repos\AngularCSharp\AngularCSharp\AngularCSharp\bin\System.Runtime.CompilerServices.Unsafe.xml
@@ -228,3 +225,9 @@ C:\Users\jmendez\source\repos\AngularCSharp\AngularCSharp\AngularCSharp\bin\Unit
 C:\Users\jmendez\source\repos\AngularCSharp\AngularCSharp\AngularCSharp\bin\WebActivatorEx.dll
 C:\Users\jmendez\source\repos\AngularCSharp\AngularCSharp\AngularCSharp\bin\System.Threading.Tasks.Extensions.xml
 C:\Users\jmendez\source\repos\AngularCSharp\AngularCSharp\AngularCSharp\bin\Unity.AspNet.WebApi.pdb
+C:\Users\jmendez\source\repos\AngularCSharp\AngularCSharp\AngularCSharp\bin\ACS.BusinessLogic.dll
+C:\Users\jmendez\source\repos\AngularCSharp\AngularCSharp\AngularCSharp\bin\CSA.DataAccess.dll
+C:\Users\jmendez\source\repos\AngularCSharp\AngularCSharp\AngularCSharp\bin\ACS.BusinessLogic.pdb
+C:\Users\jmendez\source\repos\AngularCSharp\AngularCSharp\AngularCSharp\bin\ACS.BusinessLogic.dll.config
+C:\Users\jmendez\source\repos\AngularCSharp\AngularCSharp\AngularCSharp\bin\CSA.DataAccess.pdb
+C:\Users\jmendez\source\repos\AngularCSharp\AngularCSharp\AngularCSharp\bin\CSA.DataAccess.dll.config

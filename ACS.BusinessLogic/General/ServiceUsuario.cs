@@ -1,5 +1,4 @@
-﻿using CSA.BusinessLogic.Interface.General;
-using CSA.DataAccess.Interface.General;
+﻿using CSA.DataAccess.General;
 using CSA.Entity;
 using System;
 using System.Collections.Generic;
@@ -9,15 +8,10 @@ using System.Threading.Tasks;
 
 namespace ACS.BusinessLogic.General
 {
-    public class ServiceUsuario : IServiceUsuario
+    public class ServiceUsuario
     {
-        private readonly IDataUsuario data;
-        public ServiceUsuario(IDataUsuario data)
-        {
-            this.data = data;
-        }
-
-
+        DataUsuario data = new DataUsuario(); 
+    
         public bool AgregarUsuario(CUsuario usuario)
         {
             return data.AgregarUsuario(usuario);

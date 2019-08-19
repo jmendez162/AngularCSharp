@@ -7,15 +7,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AngularCSharp", "AngularCSh
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSA.BusinessLogic", "ACS.BusinessLogic\CSA.BusinessLogic.csproj", "{2E3B13DB-09D9-4EE1-A7E0-1BD55604A48E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSA.BusinessLogic.Interface", "CSA.BusinessLogic.Interface\CSA.BusinessLogic.Interface.csproj", "{B3631165-8C61-46A5-94F5-9BEE34D5B74A}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSA.DataAccess", "CSA.DataAccess\CSA.DataAccess.csproj", "{025C92DD-79A0-4AEE-B93B-D59189D63E06}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSA.DataAccess.Interface", "CSA.DataAccess.Interface\CSA.DataAccess.Interface.csproj", "{E86520DB-708C-4CFF-AC89-ADAB1AD90AA7}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSA.Entity", "CSA.Entity\CSA.Entity.csproj", "{248085FE-7D76-48AC-98D1-BCF6BA14717F}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSA.GeneralConfiguration", "CSA.GeneralConfiguration\CSA.GeneralConfiguration.csproj", "{373899C7-8425-4483-8967-1D07634442C9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,26 +25,14 @@ Global
 		{2E3B13DB-09D9-4EE1-A7E0-1BD55604A48E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2E3B13DB-09D9-4EE1-A7E0-1BD55604A48E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2E3B13DB-09D9-4EE1-A7E0-1BD55604A48E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B3631165-8C61-46A5-94F5-9BEE34D5B74A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B3631165-8C61-46A5-94F5-9BEE34D5B74A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B3631165-8C61-46A5-94F5-9BEE34D5B74A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B3631165-8C61-46A5-94F5-9BEE34D5B74A}.Release|Any CPU.Build.0 = Release|Any CPU
 		{025C92DD-79A0-4AEE-B93B-D59189D63E06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{025C92DD-79A0-4AEE-B93B-D59189D63E06}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{025C92DD-79A0-4AEE-B93B-D59189D63E06}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{025C92DD-79A0-4AEE-B93B-D59189D63E06}.Release|Any CPU.Build.0 = Release|Any CPU
-		{E86520DB-708C-4CFF-AC89-ADAB1AD90AA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E86520DB-708C-4CFF-AC89-ADAB1AD90AA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E86520DB-708C-4CFF-AC89-ADAB1AD90AA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E86520DB-708C-4CFF-AC89-ADAB1AD90AA7}.Release|Any CPU.Build.0 = Release|Any CPU
 		{248085FE-7D76-48AC-98D1-BCF6BA14717F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{248085FE-7D76-48AC-98D1-BCF6BA14717F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{248085FE-7D76-48AC-98D1-BCF6BA14717F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{248085FE-7D76-48AC-98D1-BCF6BA14717F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{373899C7-8425-4483-8967-1D07634442C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{373899C7-8425-4483-8967-1D07634442C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{373899C7-8425-4483-8967-1D07634442C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{373899C7-8425-4483-8967-1D07634442C9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

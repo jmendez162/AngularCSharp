@@ -11,10 +11,6 @@ namespace CSA.DataAccess.General
 {
     public class DataUsuario 
     {
-        public DataUsuario()
-        {
-        }
-
         public bool AgregarUsuario(CUsuario usuario)
         {
             using(CSAEntities cSA = new CSAEntities())

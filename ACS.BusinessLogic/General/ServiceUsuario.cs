@@ -10,7 +10,7 @@ namespace ACS.BusinessLogic.General
 {
     public class ServiceUsuario
     {
-        private readonly DataUsuario data;
+        DataUsuario data = new DataUsuario(); 
     
         public bool AgregarUsuario(CUsuario usuario)
         {

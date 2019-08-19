@@ -7,8 +7,7 @@ namespace AngularCSharp.Areas.General
     [RoutePrefix("api/General/Usuarios")]
     public class UsuarioController : ApiController
     {
-        private readonly ServiceUsuario service;
-     
+        ServiceUsuario service = new ServiceUsuario();
         [Route("AgregarUsuario")]
         [HttpPost]
         public bool AgregarUsuario(CUsuario usuario)
